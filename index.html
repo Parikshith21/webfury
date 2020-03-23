@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Exodia</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Font Awesome Stylesheet -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom_styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="top-navbar">
+        <div class="container">
+
+            <a href="./" class="navbar-brand">
+                <img src="assets/images/logo.png" alt="Exodia Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-dropdown"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="top-navbar-dropdown">
+                <div class="navbar-nav mr-auto">
+                    <a href="./" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="events.html" class="nav-item nav-link">Events</a>
+                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+
+                    <span class="navbar-text nav-item nav-link d-block d-sm-none">
+                        <!-- font size in styles -->
+                        <span>Share:&nbsp;&nbsp;</span>
+                        <a href="" class="fa fa-facebook" araa-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                        <a href="" class="fa fa-twitter" aria-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                        <a href="" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                    </span>
+                </div>
+            </div>
+            <span class="navbar-text d-none d-sm-block">
+                <a href="" class="fa fa-facebook" araa-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                <a href="" class="fa fa-twitter" aria-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                <a href="" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+            </span>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="landing-page-container"
+        style="background-color: #ffffff; background-image: url(assets/images/bg.jpg);">
+        <div class="row justify-content-center mx-2">
+
+            <div class="col-11 col-md-7 col-lg-5 col-xl-4 align-self-center">
+
+                <h1 class="landing-title"><span class="font-exodia">EXODIA</h1>
+                <div class="landing-box">
+                    <h2>NIE IEEE STUDENT CHAPTER</h2>
+                    <br>
+                    <h2>April 23, 2020</h2>
+                </div>
+                <h2><i id="demo">
+                    <script>
+                        var countDownDate = new Date("Apr 23, 2020 09:00:00").getTime();
+                        var x = setInterval(function () {
+                            var now = new Date().getTime();
+                            var distance = countDownDate - now;
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                                minutes + "m " + seconds + "s ";
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo").innerHTML = "";
+                            }
+                        }, 1000);
+                    </script>
+                </i></h2>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <article class="container-fluid" id="what-is-exodia-anchor">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 text-center pt-4 pb-2 px-3">
+                <h2 class="display-4">What is Exodia&nbsp;?</h2>
+                <br>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur enim quam
+                    sequi, ratione dicta fugit rem. Vitae quidem debitis ipsam fuga necessitatibus eos autem eveniet
+                    suscipit magni. Eligendi, velit ducimus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Consequuntur enim quam sequi, ratione dicta fugit rem. Vitae quidem debitis ipsam fuga
+                    necessitatibus eos autem eveniet suscipit magni. Eligendi, velit ducimus? Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Consequuntur enim quam sequi, ratione dicta fugit rem. Vitae quidem
+                    debitis ipsam fuga necessitatibus eos autem eveniet suscipit magni. Eligendi, velit ducimus?</p>
+            </div>
+        </div>
+        <br>
+    </article>
+
+    <article class="container-fluid" id="theme-anchor">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 text-center pt-4 pb-2 px-3">
+                <h2 class="display-4">Theme</h2>
+                <br>
+                <p class="text-justify"><em>"Arise,awake and do not stop until the goal is reached. -Swami
+                        Vivekananda"</em></p>
+                <p class="text-justify"><strong><em>"ABCDEFGHIJKLM"</em></strong>Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Illum itaque ipsum officiis fuga hic culpa, provident ut adipisci laboriosam
+                    mollitia nihil, consequuntur aliquam atque incidunt necessitatibus nam. Animi, a libero.</p>
+                <br>
+            </div>
+        </div>
+        <br>
+    </article>
+
+    <section class="container-fluid events-section pt-2 pb-5" id="events-anchor">
+        <div class="container">
+
+            <div class="row justify-content-center black-row">
+                <div class="col-lg-7 text-center py-4 px-2">
+                    <h2 class="display-4" style="color: azure;">Events</h2>
+                </div>
+            </div>
+            <div class="row no-gutters justify-content-center">
+
+                <div class="col-sm-6 col-md-4 col-lg-3 my-2 member-info">
+                    <div class="member-image-holder">
+                        <img src="assets/images/download.jpeg" alt="Event 1">
+                    </div>
+                    <div class="text-center">
+                        <h3>
+                            <font color="white">Event 1</font>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 my-2 member-info">
+                    <div class="member-image-holder">
+                        <img src="assets/images/download.jpeg" alt="Event 2">
+                    </div>
+                    <div class="text-center">
+                        <h3>
+                            <font color="white">Event 2</font>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 my-2 member-info">
+                    <div class="member-image-holder">
+                        <img src="assets/images/download.jpeg" alt="Event3">
+                    </div>
+                    <div class="text-center">
+                        <h3>
+                            <font color="white">Event 3</font>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 my-2 member-info">
+                    <div class="member-image-holder mx-auto mb-2">
+                        <img src="assets/images/download.jpeg" alt="event4">
+                    </div>
+                    <div class="text-center">
+                        <h3>
+                            <font color="white">Event 4</font>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        </div>
+    </section>
+    <article class="container-fluid" id="venue-anchor">
+        <div class="row" id="address-row">
+            <div class="col-md-3 py-4">
+                <h2>QAZWSXEDCRFV</h2>
+                <p>XYZ
+                    <br>
+                    Mysuru - 570000, India
+                </p>
+                <p>
+                    Contact:
+                    <br>
+                    <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+91 9999999999
+                    <br>
+                    <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+91 9999999999
+                    <br>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;<a
+                        href="mailto:exodia@gmail.com">exodia@gmail.com</a>
+                </p>
+            </div>
+            <div class="p-0 col-md-9 map-holder">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15593.884422124356!2d76.6411467!3d12.2840288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf947b18cc5ad3d88!2sThe%20National%20Institute%20of%20Engineering!5e0!3m2!1sen!2sin!4v1584982968917!5m2!1sen!2sin"
+                    width="1135" height="790" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </article>
+
+    <footer class="container-fluid" id="bottom-footer">
+        <div class="container pt-5 pb-4">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img src="assets/images/logo.png" alt="Exodia logo" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <p>Contact Us:<br>exodia@gmail.com</p>
+                    <p>
+                        <a href="" class="fa fa-facebook" araa-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                        <a href="" class="fa fa-twitter" aria-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                        <a href="" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>&nbsp;&nbsp;
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <ul class="pl-0">
+                        <li class="py-1"><a href="index.html">Home</a></li>
+                        <li class="py-1"><a href="about.html">About</a></li>
+                        <li class="py-1"><a href="events.html">Events</a></li>
+                        <li class="py-1"><a href="gallery.html">Gallery</a></li>
+                        <li class="py-1"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col">
+                    <p>&copy; 2020 Exodia. Made By Manoj Athreya A & Parikshith H, VVCE, Mysuru</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <script src="assets/js/custom_scripts.js"></script>
+</body>
+
+</html>
