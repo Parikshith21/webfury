@@ -257,7 +257,7 @@ body {
     ==================
 */
 #address-row {
-    height: 100vh;
+    height: auto;
 }
 
 #address-row h2 {
@@ -265,7 +265,7 @@ body {
 }
 
 #address-row .map-holder {
-    min-height: 300px;
+    min-height: 100px;
 }
 
 
