@@ -63,32 +63,31 @@
         <div class="row justify-content-center mx-2">
 
             <div class="col-11 col-md-7 col-lg-5 col-xl-4 align-self-center">
-
-                <h1 class="landing-title"><span class="font-exodia">EXODIA</h1>
+                <h1 class="landing-title"><span class="text_1">EXODIA</h1>
                 <div class="landing-box">
                     <h2>NIE IEEE STUDENT CHAPTER</h2>
                     <br>
                     <h2>April 23, 2020</h2>
                 </div>
                 <h2><i id="demo">
-                    <script>
-                        var countDownDate = new Date("Apr 23, 2020 09:00:00").getTime();
-                        var x = setInterval(function () {
-                            var now = new Date().getTime();
-                            var distance = countDownDate - now;
-                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
-                                minutes + "m " + seconds + "s ";
-                            if (distance < 0) {
-                                clearInterval(x);
-                                document.getElementById("demo").innerHTML = "";
-                            }
-                        }, 1000);
-                    </script>
-                </i></h2>
+                        <script>
+                            var countDownDate = new Date("Apr 23, 2020 09:00:00").getTime();
+                            var x = setInterval(function () {
+                                var now = new Date().getTime();
+                                var distance = countDownDate - now;
+                                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                                    minutes + "m " + seconds + "s ";
+                                if (distance < 0) {
+                                    clearInterval(x);
+                                    document.getElementById("demo").innerHTML = "";
+                                }
+                            }, 1000);
+                        </script>
+                    </i></h2>
                 <br>
                 <br>
             </div>
