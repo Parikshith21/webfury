@@ -251,6 +251,52 @@ body {
     font-size: 1.3rem;
 }
 
+/*  ===============
+    Speakers styles
+    ===============
+*/
+.events-section {
+    background: #000;
+}
+
+.event-columns {
+    padding: 10px;
+    color: #fff;
+}
+
+.event-columns > div {
+    border: 2px solid #ff2b06;
+    padding: 15px;
+}
+
+.event-image-holder {
+    height: 300px;
+    width: 100%;
+}
+
+.event-image-holder img {
+    object-position: center;
+    object-fit: cover;
+}
+
+.event-columns h5 {
+    font-weight: 200;
+}
+
+.event-columns a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.event-columns a:hover {
+    color: #ff2b06;
+    text-decoration: none;
+}
+
+.event-columns .fa {
+    font-size: 1.3rem;
+}
+
 
 /*  ==================
     Address row styles
