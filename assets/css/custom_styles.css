@@ -298,72 +298,49 @@ body {
     gallery styles
     ===========
 */
-.member-image-holder {
-    height: 200px;
-    width: 200px;
-    position: relative;
-    overflow: hidden;
-}
-
-.member-image-holder img {
-    object-position: center;
-    object-fit: cover;
-}
-
-.member-image-holder .fa {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-.member-image-holder .overlay {
-    height: 100%;
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-    background: rgba(230,43,30,0.7);
-}
-
-.member-image-holder .overlay .social-links {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
-    letter-spacing: 0.37rem;
-    transition: letter-spacing 0.4s ease-out;
-}
-
-@media screen and (min-width: 768px) {
-    .member-image-holder:hover .overlay {
-        opacity: 1;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
     }
-
-    .member-image-holder:hover .overlay .social-links {
-        letter-spacing: 0.3rem;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
     }
-}
-
-.member-info h5 {
-    font-weight: 200;
-}
-
-.member-image-holder .lower-overlay {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    height: 40px;
-    padding-top: 7px;
-    letter-spacing: 0.3rem;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.member-image-holder .lower-overlay .fa {
-    font-size: 1.2rem;
-}
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
